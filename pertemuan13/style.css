@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: cornsilk;
+    color: gray;
+    background-image: url(img/double-bubble-outline.png);
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.topbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    background-color: aquamarine;
+    border-bottom: 5px solid lightgreen;
+    z-index: 999999;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    border: 5px solid lightseagreen;
+    margin: 80px auto;
+    position: relative;
+}
+
+.ig {
+    width: 145px;
+    height: 200px;
+    background-image: url(img/instagram.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -100000px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.header .judul {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 30px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: turquoise;
+    display: inline-block;
+    padding: 3px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.hero {
+    height: 350px;
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-position: 0 -130px;
+    border-top: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main .penulis{
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.main .penulis a{
+    text-decoration: none;
+    color: red;
+}
+
+.main .penulis a:hover{
+    color: white;
+    background-color: black;
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar img {
+    width: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 12px/18px arial;
+    text-align: justify;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: gray;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
